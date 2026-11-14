@@ -1,0 +1,1254 @@
+MASTER PROJECT PROMPT
+
+Asma Binte Abu Bakr (RA.) Mohila Madrasa
+
+Premium Full-Stack Islamic Educational Institution Website
+
+You are a senior full-stack software engineer, UI/UX designer, system architect, and database engineer. Your task is to design and develop a complete, production-oriented, premium-quality website and web application for an Islamic women's madrasa in Bangladesh.
+
+This is not a simple landing page or static template. Build a complete, responsive, modern, secure, maintainable, and extensible full-stack project.
+
+Follow every requirement carefully. Do not skip features, replace functional requirements with visual placeholders, or invent institutional information.
+
+---
+
+1. INSTITUTIONAL IDENTITY
+
+Official Institution Name:
+
+আসমা বিনতে আবু বকর (রা.) মহিলা মাদরাসা
+
+English transliteration:
+Asma Binte Abu Bakr (RA.) Mohila Madrasa
+
+Address:
+মাদাম ব্রিজ, সদর, লক্ষ্মীপুর, বাংলাদেশ।
+
+Institutional Slogan:
+
+আদর্শ নারী গঠনের প্রত্যয়ে
+
+Institution Description:
+
+কুরআন ও সুন্নাহর আলোকে প্রতিষ্ঠিত সালাফি মহিলা শিক্ষাপ্রতিষ্ঠান।
+
+The madrasa provides Islamic education based on the Quran and Sunnah, alongside general academic education and modern educational facilities.
+
+The primary audience is Bangladeshi parents, guardians, prospective students, and visitors.
+
+The entire public-facing website must initially use natural, professional, grammatically correct Bengali.
+
+Do not generate fake phone numbers, email addresses, registration numbers, teacher names, achievements, or institutional claims.
+
+Use clearly identified editable placeholders wherever information is not yet supplied.
+
+---
+
+2. BRAND IDENTITY AND VISUAL DESIGN
+
+Create an exceptionally beautiful, premium, elegant Islamic educational website.
+
+The design must communicate:
+
+- Islamic values and modesty.
+- Educational excellence.
+- Institutional trust.
+- Modern technology.
+- Professional management.
+- Safety and care.
+- Premium educational facilities.
+
+Official color palette
+
+Use these colors consistently:
+
+- Navy Blue: #092F46
+- Golden: #D9A323
+- Ivory White: #FFFEFA
+- Soft Pink: #F4E5E9
+- Light Neutral: #F7F8FA
+
+Navy Blue should establish the primary institutional identity.
+
+Gold should provide elegant highlights and premium accents.
+
+White and ivory should maintain visual cleanliness.
+
+Soft pink should subtly reflect the institution's student uniform identity.
+
+Avoid excessive pink, excessive gold, overly saturated colors, or childish visual styles.
+
+Typography
+
+Use high-quality Bengali typography.
+
+Preferred fonts:
+
+- Hind Siliguri: Primary Bengali font.
+- Noto Serif Bengali: Elegant headings and special statements.
+- Noto Sans Bengali: Optional supporting typography.
+
+Use appropriate font weights, spacing, line heights, and readable Bengali text.
+
+All fonts must render correctly on Android, Windows, and modern browsers.
+
+Logo
+
+Use the actual institutional logo supplied by the client.
+
+Do not recreate, distort, recolor, or replace the official logo.
+
+If the logo is unavailable in the current development environment, create a clearly marked asset placeholder.
+
+Photography
+
+Use the client's actual madrasa photographs wherever available.
+
+Important requirements:
+
+- Preserve the real appearance of the institution.
+- Do not represent generated buildings as the real madrasa.
+- Use actual institutional images for galleries and institutional identity.
+- Use tasteful Islamic educational imagery for supporting sections.
+- Avoid inappropriate or immodest imagery.
+- Protect the privacy of underage students.
+- Do not publish student photographs without appropriate permission.
+
+---
+
+3. PREMIUM HOMEPAGE
+
+The homepage must create an excellent first impression within the first few seconds.
+
+Top information bar
+
+Include editable information such as:
+
+- Contact number.
+- Institutional address.
+- Admission announcement.
+- Social media links.
+
+Main navigation
+
+Include:
+
+- Institutional logo.
+- Madrasa name.
+- Home.
+- About Us.
+- Departments.
+- Curriculum.
+- Facilities.
+- Admission.
+- Notice Board.
+- Masala Q&A.
+- Contact.
+
+Use a modern sticky navigation bar.
+
+Navigation should be intuitive, clean, and responsive.
+
+Hero section
+
+Create an exceptionally attractive hero section.
+
+Include:
+
+- Institutional name.
+- Institutional slogan.
+- A concise Bengali introduction.
+- Actual madrasa photography where available.
+- A premium image composition.
+- Elegant background treatment.
+- Subtle motion effects.
+- Two prominent call-to-action buttons.
+
+Primary CTA:
+ভর্তি সংক্রান্ত তথ্য
+
+Secondary CTA:
+আমাদের সম্পর্কে জানুন
+
+Make the hero visually impressive without compromising loading speed.
+
+Use elegant text entrance animations and smooth transitions.
+
+Institutional highlights
+
+Show attractive highlight cards for:
+
+- Quran and Sunnah-based education.
+- Islamic and general education.
+- Residential and non-residential facilities.
+- Modern educational management.
+- Student care and a suitable learning environment.
+
+Never fabricate numerical statistics.
+
+Homepage sections
+
+Create the following sections:
+
+1. Hero Section.
+2. Institutional Introduction.
+3. Director's Message.
+4. Why Choose Our Madrasa.
+5. Academic Departments.
+6. Curriculum and Teaching Method.
+7. Residential and Non-residential Facilities.
+8. Modern Educational Technology.
+9. Admission Information.
+10. Notice Board.
+11. Masala-Masayel Q&A.
+12. Photo and Video Gallery.
+13. Frequently Asked Questions.
+14. Complaint and Suggestion Section.
+15. Contact Information.
+16. Footer.
+
+Each section should have a consistent visual identity.
+
+---
+
+4. ACADEMIC DEPARTMENTS
+
+Create three main academic department cards.
+
+Each card must have:
+
+- Department title.
+- Short introduction.
+- Duration.
+- Year-wise structure.
+- Curriculum details.
+- Admission information.
+- Dedicated details page.
+
+Department A: রওদাতুল আতফাল বিভাগ
+
+Total duration: 3 years.
+
+Academic structure:
+
+- প্রথম বর্ষ
+- দ্বিতীয় বর্ষ
+- তৃতীয় বর্ষ
+
+This department serves young learners.
+
+Use appropriate child-friendly but premium Islamic educational visuals.
+
+Department B: কিতাব বিভাগ
+
+Total duration: 9 years.
+
+Divide into three academic stages:
+
+ইবতেদায়ি
+
+Duration: 3 years.
+
+- প্রথম বর্ষ
+- দ্বিতীয় বর্ষ
+- তৃতীয় বর্ষ
+
+মুতাওয়াসসিত
+
+Duration: 3 years.
+
+- প্রথম বর্ষ
+- দ্বিতীয় বর্ষ
+- তৃতীয় বর্ষ
+
+মুতাক্বাদ্দিম
+
+Duration: 3 years.
+
+- প্রথম বর্ষ
+- দ্বিতীয় বর্ষ
+- তৃতীয় বর্ষ
+
+Show the nine-year structure visually and clearly.
+
+Department C: হিফজ বিভাগ
+
+Total duration: 3 years.
+
+নাজেরা
+
+Duration: 1 year.
+
+কুরআন মুখস্থ
+
+Duration: 2 years.
+
+The institutional goal is to support students in completing Hifz within two years.
+
+Present this as an educational goal, not a guaranteed result.
+
+All department names, durations, stages, and curriculum details must be editable through the CMS/Admin Dashboard.
+
+---
+
+5. CURRICULUM AND EDUCATIONAL SYSTEM
+
+Create a comprehensive curriculum section.
+
+The institution provides education in:
+
+- Quran.
+- Hadith.
+- Aqidah.
+- Fiqh.
+- Arabic.
+- Islamic studies.
+- General academic subjects.
+- Bengali.
+- English.
+- Other subjects as provided by the institution.
+
+Do not invent specific textbook lists or examination rules.
+
+Create editable curriculum categories.
+
+Features:
+
+- Department-wise syllabus.
+- Year-wise curriculum.
+- PDF syllabus upload.
+- PDF preview.
+- PDF download.
+- Teaching methodology.
+- Examination information.
+- Academic announcements.
+
+Make curriculum browsing easy on mobile devices.
+
+---
+
+6. ADMISSION INTEREST SUBMISSION SYSTEM
+
+IMPORTANT:
+
+The madrasa does NOT complete final student admission online.
+
+The website only collects preliminary admission inquiries.
+
+Final admission takes place offline at the institution after direct communication with the guardian.
+
+Create a professional online admission inquiry form.
+
+Required fields:
+
+1. Guardian's name.
+2. Student's name.
+3. Desired department.
+4. Mobile number.
+5. Optional comments or notes.
+
+Department selection:
+
+- রওদাতুল আতফাল
+- কিতাব বিভাগ
+- হিফজ বিভাগ
+
+On successful submission:
+
+- Validate the submitted information.
+- Save the inquiry securely in the database.
+- Generate a unique inquiry/reference number.
+- Show a Bengali confirmation message.
+- Display the reference number.
+- Make the inquiry visible in the Admin Dashboard.
+- Allow authorized administrators to review and update its status.
+
+Suggested statuses:
+
+- নতুন আবেদন।
+- যোগাযোগের অপেক্ষায়।
+- যোগাযোগ করা হয়েছে।
+- মাদরাসায় আসার জন্য বলা হয়েছে।
+- ভর্তি সম্পন্ন।
+- আবেদন বাতিল।
+
+Do not automatically mark inquiries as admitted.
+
+Final student academic records will be maintained in the institution's existing ERP system.
+
+Design the inquiry system so that future ERP integration is possible through secure APIs.
+
+---
+
+7. FEE, DISCOUNT AND FACILITIES INFORMATION
+
+The institution has different educational and accommodation categories.
+
+Do not publicly invent or expose fee amounts.
+
+Create an editable section for:
+
+- Admission fee information.
+- Monthly tuition information.
+- Residential facilities.
+- Non-residential facilities.
+- Food facilities.
+- Special facilities.
+- Discount information.
+- Scholarship or concession announcements, if supplied by the institution.
+
+The administrator must control which information is publicly visible.
+
+The institution will provide its own discount-related content later.
+
+---
+
+8. RESIDENTIAL AND NON-RESIDENTIAL FACILITIES
+
+Create a premium facilities section.
+
+Include editable categories for:
+
+- Residential education.
+- Non-residential education.
+- Accommodation.
+- Food and dining.
+- Student care.
+- Safety and supervision.
+- Cleanliness.
+- Learning environment.
+- Daily educational routine.
+
+Use authentic institutional photographs when available.
+
+Do not claim facilities that have not been confirmed.
+
+---
+
+9. MASALA-MASAYEL QUESTION AND ANSWER SYSTEM
+
+IMPORTANT:
+
+This is an independent Islamic Q&A module.
+
+It is NOT the live chat system and NOT the general-purpose chatbot.
+
+Create a dedicated public section titled:
+
+মাসআলা-মাসায়েল জিজ্ঞাসা
+
+Visitors can submit Islamic questions to the institution.
+
+Public question submission form
+
+Fields:
+
+1. Questioner's name.
+2. Address.
+3. Mobile number.
+4. Question category.
+5. Detailed question.
+
+After submission:
+
+- Save the question in the database.
+- Generate a unique question number.
+- Display a successful submission message.
+- Keep the question private until approved.
+- Do not publicly display personal information.
+
+Public Q&A listing
+
+Display approved questions and answers.
+
+Each item should show:
+
+- Question number.
+- Question category.
+- Question text.
+- Official answer.
+- Publication date.
+
+Features:
+
+- Search.
+- Category filtering.
+- Pagination.
+- Question details page.
+- Total published questions counter.
+
+Admin Q&A management
+
+Administrators can:
+
+- View submitted questions.
+- View question details.
+- Write answers.
+- Edit answers.
+- Approve answers.
+- Publish or unpublish questions.
+- Delete inappropriate submissions.
+- Manage question categories.
+- Track unanswered questions.
+- Track answered questions.
+- View total question counts.
+
+All answers must be written or approved by authorized institutional personnel.
+
+Do not allow AI to automatically publish religious rulings.
+
+Protect questioners' personal information.
+
+---
+
+10. GENERAL CHATBOT AND DIRECT LIVE CHAT
+
+IMPORTANT:
+
+This is completely separate from the Masala-Masayel Q&A module.
+
+Build a professional website communication system.
+
+A. Automated chatbot
+
+Provide a floating chat widget.
+
+The chatbot should answer questions based on institution-approved information.
+
+Topics include:
+
+- Institutional introduction.
+- Admission inquiries.
+- Departments.
+- Curriculum.
+- Residential facilities.
+- Non-residential facilities.
+- Food and accommodation.
+- Contact information.
+- General institutional questions.
+
+Use an editable knowledge base.
+
+The chatbot must not invent information.
+
+If it cannot answer a question, it should offer a way to contact the institution.
+
+B. Direct live chat
+
+Allow visitors to communicate directly with authorized administrators.
+
+Required features:
+
+- Visitor conversation interface.
+- Message history.
+- Real-time message delivery.
+- Admin response interface.
+- Unread message counter.
+- Conversation status.
+- Timestamps.
+- Notification system.
+- Mobile-friendly chat interface.
+
+Use a suitable real-time backend architecture.
+
+Clearly distinguish automated responses from human administrator responses.
+
+If administrators are offline, show an appropriate message and offer an inquiry/contact option.
+
+---
+
+11. MODERN TECHNOLOGY AND DIGITAL EDUCATION
+
+Create a visually impressive section titled:
+
+আধুনিক প্রযুক্তিনির্ভর শিক্ষা ও ব্যবস্থাপনা
+
+This section is very important for communicating the institution's modern approach.
+
+Highlight the following capabilities:
+
+A. Modern CMS Management
+
+Explain that the institution uses modern content management technology to manage website information, notices, curriculum, institutional updates, and other content.
+
+B. Institutional App
+
+The institution has a separate application.
+
+Create a premium app promotion section.
+
+Display:
+
+- App logo or app icon.
+- App name.
+- Short Bengali introduction.
+- Attractive app preview image.
+- Download/Open App button.
+- Google Play link, if provided.
+- Direct app link, if provided.
+
+The app URL must be configurable through the CMS/Admin Dashboard.
+
+Use a prominent but elegant app promotion card.
+
+Suggested Bengali content:
+
+"আমাদের নিজস্ব অ্যাপ ব্যবহার করে প্রতিষ্ঠানের ডিজিটাল কার্যক্রমের সঙ্গে যুক্ত থাকুন।"
+
+Do not invent a Google Play listing or application URL.
+
+Use editable placeholders until actual links are supplied.
+
+C. Web App
+
+Create a separate promotional card for the institution's web application.
+
+Include:
+
+- Web App icon.
+- Short introduction.
+- Visit Web App button.
+- Configurable URL.
+
+Make the distinction between the main public website and the separate web application clear.
+
+D. Online Payment
+
+Showcase the institution's online payment capability.
+
+Include:
+
+- Secure online payment information.
+- Supported payment methods, once provided.
+- Payment instructions.
+- Payment service link or integration, when configured.
+
+Do not implement fake payment transactions.
+
+Real payment processing must use an authorized payment gateway and secure server-side verification.
+
+Do not store sensitive card information.
+
+E. Modern Educational Approach
+
+Present the institution's educational approach as a combination of:
+
+- Quran and Sunnah-based Islamic education.
+- Arabic language.
+- Bengali education.
+- English education.
+- General academic learning.
+- Modern digital management.
+
+Use premium icons and elegant visual cards.
+
+Only claim technologies and services that the institution actually operates.
+
+---
+
+12. COMPLAINT AND SUGGESTION SYSTEM
+
+Create a separate section:
+
+অভিযোগ, পরামর্শ ও মতামত
+
+Visitors can submit:
+
+- Suggestions.
+- Complaints.
+- Questions about institutional services.
+- General feedback.
+
+Fields:
+
+- Name.
+- Mobile number.
+- Category.
+- Message.
+
+Provide a respectful, professional, and orderly submission experience.
+
+Admin features:
+
+- View submissions.
+- Review complaints.
+- Reply to submissions.
+- Update status.
+- Mark resolved.
+- Maintain private records.
+
+Possible statuses:
+
+- নতুন।
+- পর্যালোচনাধীন।
+- উত্তর প্রদান করা হয়েছে।
+- সমাধান হয়েছে।
+
+Show a polite notice requesting respectful language and constructive communication.
+
+Do not expose private complaints publicly.
+
+---
+
+13. NOTICE BOARD AND NEWS
+
+Create a modern notice management system.
+
+Features:
+
+- Admission announcements.
+- Academic notices.
+- Examination announcements.
+- Institutional events.
+- Important updates.
+- News and announcements.
+
+Admin can:
+
+- Create notices.
+- Edit notices.
+- Delete notices.
+- Pin important notices.
+- Set publication dates.
+- Manage publication status.
+
+Display recent notices on the homepage.
+
+---
+
+14. PHOTO AND VIDEO GALLERY
+
+Create a premium gallery.
+
+Categories:
+
+- Institutional building.
+- Classrooms.
+- Educational activities.
+- Student activities.
+- Residential facilities.
+- Food and dining.
+- Events.
+- Institutional programs.
+
+Features:
+
+- Responsive image grid.
+- Lightbox viewing.
+- Image optimization.
+- Video embedding.
+- Category filters.
+
+Respect student privacy and image permissions.
+
+---
+
+15. ADMIN DASHBOARD AND CMS
+
+Build a complete and secure administrative dashboard.
+
+The dashboard must have a premium professional interface.
+
+Overview dashboard
+
+Display actual database-driven statistics:
+
+- Total admission inquiries.
+- New inquiries.
+- Total Masala questions.
+- Unanswered questions.
+- Published answers.
+- Unread messages.
+- Pending complaints.
+- Total notices.
+- Recent activities.
+
+Never use hardcoded fake statistics in the live dashboard.
+
+If the database is empty, show meaningful zero states.
+
+Admin modules
+
+1. Website overview.
+2. Institutional information.
+3. Logo and branding.
+4. Director's message.
+5. Academic departments.
+6. Academic years.
+7. Curriculum.
+8. PDF management.
+9. Admission inquiry management.
+10. Fee and discount information.
+11. Facilities management.
+12. App and Web App links.
+13. Online payment settings.
+14. Notice management.
+15. Photo gallery.
+16. Video gallery.
+17. Masala Q&A management.
+18. Chatbot knowledge base.
+19. Live chat management.
+20. Complaints and suggestions.
+21. Contact information.
+22. Social media settings.
+23. SEO settings.
+24. User and role management.
+25. Website settings.
+
+All editable content should be stored in the database.
+
+Admin roles
+
+Implement role-based access control.
+
+Suggested roles:
+
+- Super Admin.
+- Content Administrator.
+- Admission Administrator.
+- Q&A Administrator.
+- Communication Administrator.
+
+The Super Admin controls permissions.
+
+Use secure authentication, protected routes, and server-side authorization.
+
+Never expose administrator credentials in frontend code.
+
+---
+
+16. TECHNICAL STACK
+
+Use the following technology stack.
+
+Frontend
+
+- React.
+- Tailwind CSS 4.
+- JavaScript or TypeScript, preferably TypeScript.
+- React Router.
+- Reusable components.
+- Responsive layouts.
+- Accessible UI components.
+
+Backend
+
+- Node.js.
+- Express.js.
+- REST API.
+- Modular server architecture.
+- Request validation.
+- Centralized error handling.
+
+Database
+
+- PostgreSQL.
+- Proper relational database schema.
+- Migrations.
+- Seed data.
+- Foreign keys.
+- Indexes.
+- Secure database access.
+
+Real-time functionality
+
+Use an appropriate real-time communication technology, such as Socket.IO, for live chat.
+
+File storage
+
+Use configurable storage for:
+
+- Images.
+- Videos.
+- PDFs.
+- Institutional documents.
+
+Do not rely on temporary local storage for production file uploads.
+
+Architecture
+
+Maintain separate frontend and backend applications.
+
+Suggested project structure:
+
+asma-madrasa/
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── layouts/
+│   │   ├── features/
+│   │   ├── hooks/
+│   │   ├── services/
+│   │   ├── contexts/
+│   │   ├── routes/
+│   │   ├── assets/
+│   │   └── styles/
+│   ├── public/
+│   └── package.json
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── services/
+│   │   ├── routes/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── validators/
+│   │   ├── sockets/
+│   │   └── utils/
+│   └── package.json
+│
+├── database/
+│   ├── migrations/
+│   └── seeds/
+│
+├── docs/
+│   ├── setup.md
+│   ├── database.md
+│   ├── api.md
+│   └── deployment.md
+│
+├── .env.example
+└── README.md
+
+You may improve the structure when necessary, but maintain clear separation of responsibilities.
+
+---
+
+17. RESPONSIVE DESIGN: MOBILE FIRST
+
+Most visitors will use Android smartphones.
+
+Mobile experience is a top priority.
+
+Do not simply shrink the desktop design.
+
+Create a carefully designed mobile layout.
+
+Mobile requirements
+
+- Compact header.
+- Responsive navigation.
+- Easy-to-use menu.
+- Properly sized touch targets.
+- Readable Bengali typography.
+- Comfortable text spacing.
+- Optimized images.
+- Compact admission forms.
+- Responsive department cards.
+- Accessible chatbot.
+- Easy-to-use live chat.
+- Proper bottom navigation where appropriate.
+- No horizontal overflow.
+- No oversized buttons or awkward layouts.
+
+Desktop requirements
+
+- Wide and balanced hero section.
+- Professional navigation.
+- Beautiful content grids.
+- Elegant typography.
+- Balanced whitespace.
+- Responsive dashboards.
+- Optimized image compositions.
+
+Test at common Android, tablet, laptop, and desktop screen sizes.
+
+---
+
+18. ANIMATIONS AND INTERACTIONS
+
+The website should feel smooth, elegant, and modern.
+
+Use:
+
+- Smooth scrolling.
+- Subtle reveal animations.
+- Elegant text entrance animations.
+- Hover effects.
+- Card transitions.
+- Sticky navigation.
+- Refined button animations.
+- Soft background motion.
+- Animated counters only when backed by real data.
+- Elegant loading states.
+
+Avoid:
+
+- Excessive glowing effects.
+- Unnecessary spinning objects.
+- Constant flashing.
+- Heavy animations.
+- Excessive parallax.
+- Distracting transitions.
+
+Respect the user's reduced-motion preference.
+
+Prioritize performance over visual effects.
+
+---
+
+19. SECURITY AND DATA PROTECTION
+
+Implement production-minded security.
+
+Requirements:
+
+- Password hashing.
+- Secure session or token management.
+- Role-based access control.
+- Input validation.
+- API authorization.
+- SQL injection protection.
+- XSS protection.
+- Rate limiting.
+- Secure file upload validation.
+- Environment variable management.
+- CORS configuration.
+- Appropriate privacy protections.
+- Error handling.
+- Audit logs for important administrative actions.
+
+Never place database passwords, secret keys, API keys, or payment gateway secrets in frontend code.
+
+Protect personal information collected through admission, chat, complaints, and question submissions.
+
+---
+
+20. PERFORMANCE AND SEO
+
+Optimize for:
+
+- Fast loading.
+- Android devices.
+- Slow mobile internet.
+- Image compression.
+- Lazy loading.
+- Code splitting.
+- Reusable components.
+- Efficient database queries.
+- Search engine indexing.
+
+Include:
+
+- Bengali page titles.
+- Meta descriptions.
+- Open Graph metadata.
+- Favicon using the official logo.
+- Sitemap.
+- Robots.txt.
+- Semantic HTML.
+- Accessible headings.
+- Proper image alt text.
+
+Make the institution discoverable through search engines.
+
+---
+
+21. CONTENT MANAGEMENT AND EDITABILITY
+
+The website must not depend on hardcoded content.
+
+Administrators must be able to update:
+
+- Institutional name.
+- Slogan.
+- Description.
+- Address.
+- Contact information.
+- Logo.
+- Images.
+- Departments.
+- Academic years.
+- Curriculum.
+- Fees and discounts.
+- Facilities.
+- App links.
+- Web App links.
+- Payment information.
+- Notices.
+- Gallery.
+- Q&A.
+- Chatbot knowledge.
+- Social media links.
+
+All public content should be database-driven wherever appropriate.
+
+Use Bengali sample content, clearly marked as editable demo content.
+
+Never invent official institutional details.
+
+---
+
+22. ERP INTEGRATION READINESS
+
+The madrasa already uses a separate ERP system for its internal student records and academic management.
+
+The new website should not attempt to replace that ERP.
+
+Keep the architecture ready for future ERP integration.
+
+Potential future integration:
+
+- Student admission records.
+- Student information.
+- Academic information.
+- Payment status.
+- Relevant institutional data.
+
+Use secure API integration when the ERP provides an authorized API.
+
+Do not assume the ERP API exists.
+
+Do not duplicate or expose private student records.
+
+---
+
+23. REQUIRED DELIVERABLES
+
+Build the actual project, not merely a visual mockup.
+
+Deliver:
+
+1. Complete React frontend.
+2. Complete Tailwind CSS 4 styling.
+3. Node.js and Express backend.
+4. PostgreSQL database schema.
+5. Database migrations.
+6. Sample seed data.
+7. Admin authentication.
+8. Admin dashboard.
+9. Admission inquiry system.
+10. Masala Q&A system.
+11. Chatbot architecture.
+12. Direct live chat.
+13. Complaint and suggestion system.
+14. CMS management.
+15. App and Web App promotional sections.
+16. Configurable online payment integration architecture.
+17. API documentation.
+18. Environment variable example.
+19. Installation instructions.
+20. Deployment documentation.
+
+Also include:
+
+- README.md.
+- Database setup guide.
+- API endpoint documentation.
+- Admin setup instructions.
+- Developer handover guide.
+
+---
+
+24. TESTING AND QUALITY ASSURANCE
+
+Test all major features.
+
+Verify:
+
+- Frontend rendering.
+- Backend connectivity.
+- Database connection.
+- Admission form submission.
+- Database persistence.
+- Admin login.
+- Role permissions.
+- Department editing.
+- Curriculum management.
+- Q&A submission and publication.
+- Live chat communication.
+- Complaint submission.
+- Notice management.
+- Image upload.
+- Mobile responsiveness.
+- Error handling.
+
+Do not claim a feature works unless it has been implemented and tested.
+
+Do not simulate successful database writes when the database is disconnected.
+
+Provide clear configuration instructions for services that require external credentials.
+
+---
+
+25. DEVELOPMENT WORKFLOW
+
+Follow this implementation sequence.
+
+Phase 1: Project architecture and design system.
+
+Phase 2: Complete premium public-facing website.
+
+Phase 3: Admin dashboard and CMS.
+
+Phase 4: Database design and backend APIs.
+
+Phase 5: Admission management.
+
+Phase 6: Masala Q&A module.
+
+Phase 7: Chatbot and real-time live chat.
+
+Phase 8: App promotion, Web App integration, and payment architecture.
+
+Phase 9: Security, testing, optimization, and documentation.
+
+Do not stop after generating the homepage.
+
+Do not leave the backend as a collection of empty placeholder files.
+
+Implement every core feature with functional code.
+
+If the available environment cannot complete the entire project in one generation, work incrementally while preserving the architecture and existing files.
+
+Never overwrite working code unnecessarily.
+
+Maintain a clear implementation checklist and report which features are complete, incomplete, or awaiting external credentials.
+
+---
+
+26. FINAL DESIGN DIRECTION
+
+The finished website should feel like a premium modern Islamic educational institution's digital platform.
+
+It must be:
+
+- Beautiful.
+- Trustworthy.
+- Professional.
+- Elegant.
+- Fast.
+- Mobile-friendly.
+- Secure.
+- Fully manageable.
+- Future-ready.
+
+The overall experience should make parents and visitors feel confident about the institution.
+
+Remember:
+
+This is the official digital identity of Asma Binte Abu Bakr (RA.) Mohila Madrasa.
+
+The design must respect Islamic values, institutional identity, modesty, and professionalism.
+
+Use the real logo and actual photographs provided by the client.
+
+Use the official Bengali name and slogan consistently.
+
+Do not invent facts.
+
+Do not compromise on Bengali typography or Android usability.
+
+Do not confuse the Masala-Masayel Q&A system with the general chatbot or direct live chat.
+
+Do not confuse online admission inquiry with final offline admission.
+
+Do not confuse the main website with the institution's separate mobile app or Web App.
+
+Now begin by analyzing the complete requirements, preparing the project architecture, and creating the design system. Then implement the project systematically.
+
+The final result must be a complete, maintainable, developer-friendly full-stack project rather than a static website demonstration.

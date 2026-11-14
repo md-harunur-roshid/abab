@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-primary: #11502B;
+  --color-emerald-deep: #0D4423;
+  --color-emerald-accent: #165D34;
+  --color-gold-accent: #E8C138;
+  --color-gold-bright: #F4D053;
+  --color-forest-ink: #162A1D;
+  --color-forest-muted: #4A6153;
+  --color-cream-canvas: #FAF7EE;
+  --color-cream-card: #FAF6EC;
+  --color-cream-border: #DFD8C5;
+  --font-sans: "Hind Siliguri", "Noto Sans Bengali", system-ui, -apple-system, sans-serif;
+  --font-serif: "Noto Serif Bengali", "Hind Siliguri", Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    background-color: #FFFFFF;
+    color: #162A1D;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    overflow-x: hidden;
+    line-height: 1.65;
+    background-color: #FFFFFF;
+    color: #162A1D;
+  }
+
+  h1, h2, h3, .font-editorial {
+    font-family: var(--font-serif);
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Subtle architectural forest emerald & gold lattice backdrop */
+.islamic-lattice-bg {
+  background-image: radial-gradient(rgba(17, 80, 43, 0.055) 1px, transparent 1px),
+    radial-gradient(rgba(232, 193, 56, 0.08) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-position: 0 0, 14px 14px;
+}
+
+/* Hide scrollbars cleanly where horizontal tab strips are used on mobile */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
