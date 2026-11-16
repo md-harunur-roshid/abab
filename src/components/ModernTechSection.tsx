@@ -25,7 +25,7 @@ export const ModernTechSection: React.FC = () => {
     : [];
 
   return (
-    <section id="technology" className="py-14 lg:py-20 bg-white border-b border-[#DFD8C5]">
+    <section id="technology" className="py-14 lg:py-20 bg-[#FAF7EE] border-b border-[#DFD8C5]">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 space-y-12">
         <div className="max-w-3xl space-y-2">
           <p className="text-xs font-semibold text-[#11502B]">

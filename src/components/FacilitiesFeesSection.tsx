@@ -12,42 +12,10 @@ export const FacilitiesFeesSection: React.FC = () => {
   return (
     <section id="facilities" className="py-14 lg:py-20 bg-[#FAF7EE] border-b border-[#DFD8C5]">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 space-y-14">
-        {/* Residential & Non-Residential Facilities */}
-        <div className="space-y-8">
-          <div className="max-w-2xl space-y-2">
-            <p className="text-xs font-semibold text-[#11502B]">আবাসন, পরিবেশ ও তত্ত্বাবধান</p>
-            <h2 className="font-editorial text-2xl sm:text-3xl font-bold text-[#162A1D]">
-              আবাসিক ও অনাবাসিক সুযোগ-সুবিধা
-            </h2>
-            <p className="text-sm sm:text-base text-[#4A6153]">
-              অভিভাবকদের নিশ্চিত আস্থার জন্য পরিচ্ছন্ন আবাসন, স্বাস্থ্যসম্মত খাবার, পর্দা ও নিরাপদ শিক্ষার পরিবেশ।
-            </p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {facilities.map((item) => (
-              <div
-                key={item.id}
-                className="bg-white border border-[#DFD8C5] rounded-2xl p-6 space-y-3 hover:border-[#11502B] transition-colors"
-              >
-                <div className="flex items-center justify-between gap-2 text-xs text-[#11502B] font-semibold">
-                  <span>{item.category}</span>
-                  <Building2 className="w-4 h-4 text-[#11502B]/75" aria-hidden="true" />
-                </div>
-                <h3 className="font-editorial text-lg font-bold text-[#162A1D]">
-                  {stripEditableHint(item.title)}
-                </h3>
-                <p className="text-sm text-[#4A6153] leading-relaxed">
-                  {stripEditableHint(item.description)}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-
+        
         {/* Fee, Discount & Scholarship Info */}
         {showFeesSection && (
-          <div className="pt-10 border-t border-[#DFD8C5] space-y-6">
+          <div className="space-y-6">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
               <div className="max-w-2xl space-y-2">
                 <p className="text-xs font-semibold text-[#11502B]">বেতন, ছাড় ও বৃত্তি নির্দেশিকা</p>
@@ -96,7 +64,7 @@ export const FacilitiesFeesSection: React.FC = () => {
                 href="#admission"
                 className="px-5 py-2.5 rounded-xl bg-[#11502B] text-white text-xs font-semibold whitespace-nowrap shrink-0 hover:bg-[#0D4423] transition-colors"
               >
-                ভর্তি তথ্য জানুন
+                বিস্তারিত তথ্য জানুন
               </a>
             </div>
           </div>

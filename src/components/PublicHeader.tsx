@@ -16,8 +16,7 @@ import {
   formatDisplayEmail,
   formatDisplayPhone,
 } from '../utils/institutionalRules';
-import { LogoMark } from './LogoMark';
-
+import logoImage from '../assets/images/logo.jpeg'
 type DropdownKey = 'about' | 'departments' | 'curriculum' | 'admission' | 'activity' | null;
 
 export const PublicHeader: React.FC = () => {
@@ -40,10 +39,14 @@ export const PublicHeader: React.FC = () => {
   const rawNameBn = (inst?.nameBn || '').trim();
   const isDefaultName = !rawNameBn || rawNameBn.includes('আসমা বিনতে আবু বকর');
   const topTitleLine = isDefaultName
-    ? 'আসমা বিনতে আবু বকর (রাদিয়াল্লাহু তাআলা আনহা)'
+    ? 'আসমা বিনতে আবু বকর রা'
     : rawNameBn;
   const secondTitleLine = isDefaultName ? 'মহিলা মাদরাসা' : inst?.nameEn || 'মহিলা মাদরাসা';
-  const slogan = inst?.slogan || 'আদর্শ নারী গঠনের প্রত্যয়ে';
+  const slogan = inst?.slogan || 'আদর্শ নারী গঠনের প্রত্যয়ে';
+
+  const logoSrc = (branding?.logoUrl && branding.logoUrl.trim() !== '') 
+    ? branding.logoUrl 
+    : '../assets/images/logo.jpeg';
 
   const scrollToSection = (sectionId: string) => {
     setMobileMenuOpen(false);
@@ -74,7 +77,7 @@ export const PublicHeader: React.FC = () => {
       { label: 'ভর্তি আগ্রহ ফরম ও নির্দেশিকা', category: 'ভর্তি', action: () => scrollToSection('admission') },
       { label: 'পাঠ্যক্রম ও বই তালিকা', category: 'সিলেবাস', action: () => scrollToSection('curriculum') },
       { label: 'আবাসিক ও অনাবাসিক সুবিধা', category: 'সুবিধা', action: () => scrollToSection('facilities') },
-      { label: 'মাসআলা-মাসায়েল জিজ্ঞাসা', category: 'মাসআলা', action: () => scrollToSection('masala') },
+      { label: 'মাসআলা-মাসায়েল জিজ্ঞাসা', category: 'মাসআলা', action: () => scrollToSection('masala') },
       { label: 'যোগাযোগ ও ঠিকানা', category: 'যোগাযোগ', action: () => scrollToSection('contact') },
       {
         label: 'অ্যাডমিন ও CMS প্যানেল',
@@ -166,10 +169,10 @@ export const PublicHeader: React.FC = () => {
             to="/"
             className="h-full flex items-center gap-2.5 sm:gap-3.5 flex-1 min-w-0 lg:flex-initial lg:bg-[#FAF7EE] lg:-ml-5 lg:pl-5 lg:pr-8 lg:rounded-br-[28px] lg:border-r lg:border-[#EDE7D5] focus-visible:outline-2 focus-visible:outline-[#11502B]"
           >
-            <LogoMark
-              logoUrl={branding?.logoUrl}
-              size="lg"
-              className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[58px] lg:h-[58px] rounded-full shrink-0"
+            <img
+              src={logoImage}
+              alt="Institution Logo"
+              className="w-10 h-10 sm:w-12 sm:h-12 lg:w-[58px] lg:h-[58px] rounded-full object-cover shrink-0 border border-[#DFD8C5] bg-white p-0.5"
             />
             <div className="min-w-0 flex-1 lg:flex-initial">
               <span className="block sm:hidden font-editorial font-bold text-[12px] text-[#11502B] leading-tight whitespace-nowrap truncate">
@@ -181,11 +184,11 @@ export const PublicHeader: React.FC = () => {
               <span className="block font-editorial font-extrabold text-[17px] sm:text-[21px] xl:text-[24px] text-[#134627] leading-[1.08] tracking-tight whitespace-nowrap truncate">
                 {secondTitleLine}
               </span>
-              <span className="hidden sm:inline-flex items-center gap-2 mt-0.5 text-[11px] font-semibold text-[#2A5238]">
+              {/* <span className="hidden sm:inline-flex items-center gap-2 mt-0.5 text-[11px] font-semibold text-[#2A5238]">
                 <span className="h-[1px] w-7 bg-gradient-to-r from-transparent to-[#11502B]/55" aria-hidden="true" />
                 <span>{slogan}</span>
                 <span className="h-[1px] w-7 bg-gradient-to-l from-transparent to-[#11502B]/55" aria-hidden="true" />
-              </span>
+              </span> */}
             </div>
           </AppLink>
 
@@ -321,7 +324,7 @@ export const PublicHeader: React.FC = () => {
                     onClick={() => scrollToSection('masala')}
                     className="w-full text-left px-4 py-2 text-sm text-[#162A1D] hover:bg-[#FAF7EE] hover:text-[#11502B] cursor-pointer"
                   >
-                    মাসআলা-মাসায়েল জিজ্ঞাসা
+                    মাসআলা-মাসায়েল জিজ্ঞাসা
                   </button>
                 </div>
               )}
@@ -464,7 +467,7 @@ export const PublicHeader: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {quickSearchItems.length === 0 ? (
-                  <p className="text-xs text-[#4A6153] py-1">কোনো মিল পাওয়া যায়নি।</p>
+                  <p className="text-xs text-[#4A6153] py-1">কোনো মিল পাওয়া যায়নি।</p>
                 ) : (
                   quickSearchItems.map((item, idx) => (
                     <button
@@ -490,7 +493,11 @@ export const PublicHeader: React.FC = () => {
           <div className="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white shadow-2xl flex flex-col border-l border-[#DFD8C5]">
             <div className="p-4 border-b border-[#DFD8C5] bg-[#FAF7EE] flex items-center justify-between">
               <div className="flex items-center gap-2.5 min-w-0">
-                <LogoMark logoUrl={branding?.logoUrl} size="sm" className="rounded-full" />
+                <img
+                  src={logoSrc}
+                  alt="Institution Logo"
+                  className="w-8 h-8 rounded-full object-cover shrink-0 border border-[#DFD8C5] bg-white p-0.5"
+                />
                 <span className="font-editorial font-bold text-sm text-[#11502B] truncate">
                   {inst?.nameBn || 'আসমা বিনতে আবু বকর (রা.) মহিলা মাদরাসা'}
                 </span>
@@ -516,7 +523,7 @@ export const PublicHeader: React.FC = () => {
                 { id: 'technology', label: 'আধুনিক শিক্ষা প্রযুক্তি' },
                 { id: 'admission', label: 'ভর্তি আগ্রহ ফরম' },
                 { id: 'notices', label: 'নোটিশ বোর্ড' },
-                { id: 'masala', label: 'মাসআলা-মাসায়েল জিজ্ঞাসা' },
+                { id: 'masala', label: 'মাসআলা-মাসায়েল জিজ্ঞাসা' },
                 { id: 'gallery', label: 'ফটো ও ভিডিও গ্যালারি' },
                 { id: 'faq', label: 'সাধারণ প্রশ্নোত্তর' },
                 { id: 'complaints', label: 'অভিযোগ ও পরামর্শ' },

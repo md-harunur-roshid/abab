@@ -12,6 +12,7 @@ import { DepartmentDetailPage } from './pages/DepartmentDetailPage';
 import { HomePage } from './pages/HomePage';
 import { MasalaArchivePage } from './pages/MasalaArchivePage';
 import { MasalaDetailPage } from './pages/MasalaDetailPage';
+import { AdmissionPage } from './pages/AdmissionPage'; // AdmissionPage ইমপোর্ট করা হলো
 
 const AppRouterView: React.FC = () => {
   const { pathname, navigate } = useNavigation();
@@ -25,7 +26,10 @@ const AppRouterView: React.FC = () => {
     }
   }, [loading, adminUser, normalizedPath, navigate]);
 
- 
+  
+  if (normalizedPath === '/admissionFee') {
+    return <AdmissionPage />;
+  }
 
   if (normalizedPath === '/masala') {
     return <MasalaArchivePage />;

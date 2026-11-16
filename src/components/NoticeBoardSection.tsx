@@ -22,7 +22,7 @@ export const NoticeBoardSection: React.FC = () => {
   };
 
   return (
-    <section id="notices" className="py-14 lg:py-20 bg-white border-b border-[#DFD8C5] scroll-mt-20">
+    <section id="notices" className="py-14 lg:py-20 bg-[#FAF7EE] border-b border-[#DFD8C5] scroll-mt-20">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 space-y-8">
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div className="space-y-2">

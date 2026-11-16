@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { BookMarked, CheckCircle2, Download, Eye, FileText, X } from 'lucide-react';
+import { BookMarked, CheckCircle2, Download, Eye, FileText, ArrowRight, X } from 'lucide-react';
 import {
   downloadDemoSyllabusFile,
   getDemoSyllabusPreview,
@@ -56,7 +56,7 @@ export const CurriculumSection: React.FC = () => {
               onClick={() => setSelectedDeptId('all')}
               className={`min-h-[40px] px-4 py-2 rounded-xl text-sm font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
                 selectedDeptId === 'all'
-                  ? 'bg-[#11502B] text-white'
+                  ? 'bg-[#11502B] text-white shadow-sm'
                   : 'bg-[#FAF7EE] text-[#162A1D] hover:bg-[#EBF3EE] border border-[#DFD8C5]'
               }`}
             >
@@ -69,7 +69,7 @@ export const CurriculumSection: React.FC = () => {
                 onClick={() => setSelectedDeptId(dept.id)}
                 className={`min-h-[40px] px-4 py-2 rounded-xl text-sm font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
                   selectedDeptId === dept.id
-                    ? 'bg-[#11502B] text-white'
+                    ? 'bg-[#11502B] text-white shadow-sm'
                     : 'bg-[#FAF7EE] text-[#162A1D] hover:bg-[#EBF3EE] border border-[#DFD8C5]'
                 }`}
               >
@@ -84,11 +84,11 @@ export const CurriculumSection: React.FC = () => {
               onClick={() => setSelectedCategoryId('all')}
               className={`min-h-[36px] px-3.5 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
                 selectedCategoryId === 'all'
-                  ? 'bg-[#EBF3EE] text-[#0D4423] border border-[#11502B]/40 font-semibold'
+                  ? 'bg-[#EBF3EE] text-[#0D4423] border border-[#11502B]/40 font-semibold shadow-xs'
                   : 'bg-white text-[#4A6153] border border-[#DFD8C5] hover:border-[#11502B]'
               }`}
             >
-              সকল বিষয় ({categories.length})
+              সকল বিষয় ({categories.length})
             </button>
             {categories.map((cat) => (
               <button
@@ -97,7 +97,7 @@ export const CurriculumSection: React.FC = () => {
                 onClick={() => setSelectedCategoryId(cat.id)}
                 className={`min-h-[36px] px-3.5 py-1.5 rounded-xl text-xs font-medium whitespace-nowrap shrink-0 transition-colors cursor-pointer ${
                   selectedCategoryId === cat.id
-                    ? 'bg-[#EBF3EE] text-[#0D4423] border border-[#11502B]/40 font-semibold'
+                    ? 'bg-[#EBF3EE] text-[#0D4423] border border-[#11502B]/40 font-semibold shadow-xs'
                     : 'bg-white text-[#4A6153] border border-[#DFD8C5] hover:border-[#11502B]'
                 }`}
               >
@@ -112,7 +112,7 @@ export const CurriculumSection: React.FC = () => {
           <div className="p-8 rounded-2xl bg-[#FAF7EE] border border-[#DFD8C5] text-center space-y-2">
             <BookMarked className="w-8 h-8 text-[#11502B] mx-auto" aria-hidden="true" />
             <p className="text-base font-semibold text-[#162A1D]">
-              এই বিভাগ বা বিষয়ের জন্য এখনো আলাদা সিলেবাস যুক্ত করা হয়নি
+              এই বিভাগ বা বিষয়ের জন্য এখনো আলাদা সিলেবাস যুক্ত করা হয়নি
             </p>
             <p className="text-sm text-[#4A6153]">
               অ্যাডমিন প্যানেল থেকে নতুন পাঠ্যক্রম ও পিডিএফ সিলেবাস আপলোড করা যাবে।
@@ -123,14 +123,14 @@ export const CurriculumSection: React.FC = () => {
             {filteredItems.map((item) => (
               <div
                 key={item.id}
-                className="bg-[#FAF7EE]/70 border border-[#DFD8C5] rounded-2xl p-6 flex flex-col justify-between gap-4 hover:border-[#11502B]/70 transition-colors"
+                className="bg-[#FAF7EE]/70 border border-[#DFD8C5] rounded-2xl p-6 flex flex-col justify-between gap-4 hover:border-[#11502B]/70 transition-colors shadow-xs"
               >
                 <div className="space-y-3">
                   <div className="flex flex-wrap items-center gap-2 text-xs text-[#4A6153]">
                     <span>{deptMap.get(item.departmentId || 0) || 'সাধারণ পাঠ্যক্রম'}</span>
                     <span aria-hidden="true">·</span>
                     <span className="text-[#11502B] font-semibold">
-                      {catMap.get(item.categoryId || 0) || 'বিষয়ভিত্তিক'}
+                      {catMap.get(item.categoryId || 0) || 'বিষয়ভিত্তিক'}
                     </span>
                   </div>
                   <h3 className="font-editorial text-lg font-bold text-[#162A1D]">
@@ -153,7 +153,7 @@ export const CurriculumSection: React.FC = () => {
                       {item.examInfo && (
                         <div className="text-xs text-[#2B3D32] bg-white border border-[#DFD8C5] rounded-xl p-3">
                           <span className="font-semibold text-[#11502B] block mb-0.5">
-                            পরীক্ষা ও মূল্যায়ন
+                            পরীক্ষা ও মূল্যায়ন
                           </span>
                           {item.examInfo}
                         </div>
@@ -173,7 +173,7 @@ export const CurriculumSection: React.FC = () => {
                     <button
                       type="button"
                       onClick={() => setPreviewPdfItem(item)}
-                      className="min-h-[40px] px-4 py-2 rounded-xl bg-[#11502B] text-white hover:bg-[#0D4423] text-xs font-semibold inline-flex items-center gap-1.5 cursor-pointer"
+                      className="min-h-[40px] px-4 py-2 rounded-xl bg-[#11502B] text-white hover:bg-[#0D4423] text-xs font-semibold inline-flex items-center gap-1.5 cursor-pointer shadow-xs"
                     >
                       <Eye className="w-4 h-4" aria-hidden="true" />
                       সিলেবাস প্রিভিউ
@@ -182,7 +182,7 @@ export const CurriculumSection: React.FC = () => {
                       <button
                         type="button"
                         onClick={() => downloadDemoSyllabusFile(item)}
-                        className="min-h-[40px] px-4 py-2 rounded-xl bg-white border border-[#DFD8C5] text-[#162A1D] hover:border-[#11502B] text-xs font-semibold inline-flex items-center gap-1.5 cursor-pointer"
+                        className="min-h-[40px] px-4 py-2 rounded-xl bg-white border border-[#DFD8C5] text-[#162A1D] hover:border-[#11502B] text-xs font-semibold inline-flex items-center gap-1.5 cursor-pointer shadow-xs"
                       >
                         <Download className="w-4 h-4 text-[#11502B]" aria-hidden="true" />
                         সিলেবাস ডাউনলোড
@@ -191,7 +191,7 @@ export const CurriculumSection: React.FC = () => {
                       <a
                         href={item.pdfUrl}
                         download={item.pdfTitle || item.title}
-                        className="min-h-[40px] px-4 py-2 rounded-xl bg-white border border-[#DFD8C5] text-[#162A1D] hover:border-[#11502B] text-xs font-semibold inline-flex items-center gap-1.5"
+                        className="min-h-[40px] px-4 py-2 rounded-xl bg-white border border-[#DFD8C5] text-[#162A1D] hover:border-[#11502B] text-xs font-semibold inline-flex items-center gap-1.5 shadow-xs"
                       >
                         <Download className="w-4 h-4 text-[#11502B]" aria-hidden="true" />
                         PDF ডাউনলোড
@@ -208,6 +208,25 @@ export const CurriculumSection: React.FC = () => {
             ))}
           </div>
         )}
+
+        {/* সুন্দর ও পরিপাটি ডিজাইন করা ভর্তি সংক্রান্ত কল-টু-অ্যাকশন ব্যানার/বাটন */}
+        <div className="mt-10 rounded-2xl bg-gradient-to-r from-[#FAF7EE] to-[#EBF3EE] border border-[#DFD8C5] p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xs">
+          <div className="space-y-1.5 text-center md:text-left">
+            <h3 className="font-editorial text-xl font-bold text-[#162A1D]">
+              ভর্তি পদ্ধতি ও যাবতীয় ফি তথ্য জানতে চান?
+            </h3>
+            <p className="text-sm text-[#4A6153] max-w-xl">
+              আমাদের ভর্তি প্রক্রিয়া, প্রয়োজনীয় শর্তাবলী, সেমিস্টারভিত্তিক টিউশন ফি এবং অন্যান্য আনুষঙ্গিক খরচ সম্পর্কে বিস্তারিত জেনে নিন।
+            </p>
+          </div>
+          <a
+            href="admissionFee"
+            className="min-h-[48px] px-6 py-3 rounded-xl bg-[#11502B] text-white hover:bg-[#0D4423] text-sm font-semibold inline-flex items-center gap-2 transition-all shadow-md hover:shadow-lg shrink-0 cursor-pointer"
+          >
+            <span>ভর্তি পদ্ধতি ও যাবতীয় ফি তথ্য</span>
+            <ArrowRight className="w-4 h-4" aria-hidden="true" />
+          </a>
+        </div>
       </div>
 
       {/* PDF / Syllabus Preview Modal */}
@@ -269,7 +288,7 @@ export const CurriculumSection: React.FC = () => {
                   </div>
 
                   <div className="space-y-3">
-                    <h5 className="text-sm font-bold text-[#162A1D]">মূল পাঠ্যবিষয় ও কাঠামো</h5>
+                    <h5 className="text-sm font-bold text-[#162A1D]">মূল পাঠ্যবিষয় ও কাঠামো</h5>
                     <ul className="space-y-2.5">
                       {demoPreview.points.map((point, idx) => (
                         <li
@@ -293,7 +312,7 @@ export const CurriculumSection: React.FC = () => {
                       )}
                       {previewPdfItem.examInfo && (
                         <div className="p-4 rounded-xl bg-[#EBF3EE]/70 border border-[#DFD8C5] text-xs space-y-1">
-                          <span className="font-bold text-[#11502B] block">মূল্যায়ন ব্যবস্থা</span>
+                          <span className="font-bold text-[#11502B] block">মূল্যায়ন ব্যবস্থা</span>
                           <p className="text-[#162A1D]">{previewPdfItem.examInfo}</p>
                         </div>
                       )}

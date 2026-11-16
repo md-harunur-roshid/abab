@@ -75,7 +75,7 @@ export const MasalaSection: React.FC = () => {
   };
 
   return (
-    <section id="masala" className="py-14 lg:py-20 bg-[#FAF7EE] border-b border-[#DFD8C5]">
+    <section id="masala" className="py-14 lg:py-20 bg-white border-b border-[#DFD8C5]">
       <div className="max-w-7xl mx-auto px-4 lg:px-6 space-y-10">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">

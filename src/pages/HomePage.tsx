@@ -17,6 +17,7 @@ import { PublicFooter } from '../components/PublicFooter';
 import { PublicHeader } from '../components/PublicHeader';
 import { useNavigation } from '../contexts/NavigationContext';
 import { useSiteData } from '../contexts/SiteDataContext';
+import { JoinUsSection } from '../components/JoinUsSection';
 
 export const HomePage: React.FC = () => {
   const { loading, error, refreshSiteData } = useSiteData();
@@ -64,18 +65,22 @@ export const HomePage: React.FC = () => {
             {/* Top Reference Showcase: Hero Banner + 6-Item Feature Bar + 4-Card Row & Bottom Trust Bar */}
             <HeroSection />
             <CoreFeaturesSection />
+            <AboutDirectorSection />
+            <GallerySection />
+            <ModernTechSection />
+            <CurriculumSection />
+            <AdmissionFormSection />
+            <JoinUsSection />
+
 
             {/* Detailed Institutional Reading, Sliding Gallery, Full Departments, Curriculum & Interactive Tools */}
-            <AboutDirectorSection />
-            <DepartmentsSection />
-            <GallerySection />
-            <CurriculumSection />
+            {/* <DepartmentsSection /> */}
+            
             <FacilitiesFeesSection />
-            <ModernTechSection />
-            <AdmissionFormSection />
-            <NoticeBoardSection />
+
             <MasalaSection />
-            <FaqComplaintContactSection />
+            <NoticeBoardSection />
+            {/* <FaqComplaintContactSection /> */}
           </>
         )}
       </main>
